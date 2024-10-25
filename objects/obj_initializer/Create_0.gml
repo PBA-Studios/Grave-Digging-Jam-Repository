@@ -1,0 +1,2 @@
+randomize();
+global.paused = false;
