@@ -1,13 +1,13 @@
 {
   "$GMTileSet":"",
-  "%Name":"ts_tiles",
+  "%Name":"ts_town",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"ts_tiles",
+  "name":"ts_town",
   "out_columns":11,
   "out_tilehborder":2,
   "out_tilevborder":2,
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_tiles",
-    "path":"sprites/spr_tiles/spr_tiles.yy",
+    "name":"spr_tiles_town",
+    "path":"sprites/spr_tiles_town/spr_tiles_town.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
