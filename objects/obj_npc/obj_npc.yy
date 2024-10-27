@@ -6,8 +6,8 @@
   "name":"obj_npc",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"NPCs and Enemies",
+    "path":"folders/Objects/NPCs and Enemies.yy",
   },
   "parentObjectId":null,
   "persistent":false,

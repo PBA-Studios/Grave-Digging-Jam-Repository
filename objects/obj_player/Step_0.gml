@@ -24,6 +24,24 @@ if (moveMagnitude == true)
 	direction = moveDirection;
 }
 
+//	Attack System
+if (global.active_attack = false)
+{
+	if (keyboard_check_pressed(vk_space))
+	{
+		if (moveDirection = 270)
+		{
+			instance_create_layer(x, y, "Instances_Above", obj_player_attack);
+			global.active_attack = true;
+		}
+		if (moveDirection != 270)
+		{
+			instance_create_layer(x, y, "Instances_Below", obj_player_attack);
+			global.active_attack = true;
+		}
+	}
+}
+
 //	Pause Controller
 if (!global.paused)
 {

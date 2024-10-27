@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Player and NPCs",
-    "path":"folders/Sprites/Player and NPCs.yy",
+    "name":"NPCs and Enemies",
+    "path":"folders/Sprites/NPCs and Enemies.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

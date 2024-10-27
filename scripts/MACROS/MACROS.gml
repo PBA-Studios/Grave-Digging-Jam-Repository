@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function MACROS()
 {
-	#macro TILE_SIZE 22
+	#macro TILE_SIZE 16
 	#macro CARDINAL_DIR round(direction/90)
 	#macro ROOM_START rm_main
 	#macro RESOLUTION_W 320

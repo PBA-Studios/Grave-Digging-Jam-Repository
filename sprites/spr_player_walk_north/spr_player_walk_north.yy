@@ -34,8 +34,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Player and NPCs",
-    "path":"folders/Sprites/Player and NPCs.yy",
+    "name":"Walk",
+    "path":"folders/Sprites/Player/Walk.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
