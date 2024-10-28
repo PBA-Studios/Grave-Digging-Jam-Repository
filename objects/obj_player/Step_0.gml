@@ -42,6 +42,19 @@ if (global.active_attack = false)
 	}
 }
 
+//	Grave Text System
+global.closest_grave_instance = instance_nearest(x, y, obj_grave_text_trigger);
+if (distance_to_object(global.closest_grave_instance) < 16)
+{
+	global.active_grave = global.closest_grave_instance.grave_name;
+}
+if (distance_to_object(global.closest_grave_instance) > 16)
+{
+	global.active_grave = "none";
+}
+
+
+
 //	Pause Controller
 if (!global.paused)
 {
