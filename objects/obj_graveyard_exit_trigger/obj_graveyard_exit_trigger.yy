@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"TEMP_DRAWER",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_graveyard_exit_trigger",
+  "eventList":[],
   "managed":true,
-  "name":"TEMP_DRAWER",
+  "name":"obj_graveyard_exit_trigger",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Text Pop-Up",
+    "path":"folders/Objects/Text Pop-Up.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_graveyard_exit_trigger",
+    "path":"sprites/spr_graveyard_exit_trigger/spr_graveyard_exit_trigger.yy",
+  },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

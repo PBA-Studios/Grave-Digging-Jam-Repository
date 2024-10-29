@@ -25,22 +25,22 @@ if (moveMagnitude == true)
 }
 
 //	Attack System
-if (global.active_attack = false)
-{
-	if (keyboard_check_pressed(vk_space))
-	{
-		if (moveDirection = 270)
-		{
-			instance_create_layer(x, y, "Instances_Above", obj_player_attack);
-			global.active_attack = true;
-		}
-		if (moveDirection != 270)
-		{
-			instance_create_layer(x, y, "Instances_Below", obj_player_attack);
-			global.active_attack = true;
-		}
-	}
-}
+//if (global.active_attack = false)
+//{
+	//if (keyboard_check_pressed(vk_space))
+	//{
+		//if (moveDirection = 270)
+		//{
+			//instance_create_layer(x, y, "Instances_Above", obj_player_attack);
+			//global.active_attack = true;
+		//}
+		//if (moveDirection != 270)
+		//{
+			//instance_create_layer(x, y, "Instances_Below", obj_player_attack);
+			//global.active_attack = true;
+		//}
+	//}
+//}
 
 //	Grave Text System
 global.closest_grave_instance = instance_nearest(x, y, obj_grave_text_trigger);
@@ -53,10 +53,41 @@ if (distance_to_object(global.closest_grave_instance) > 16)
 	global.active_grave = "none";
 }
 
+//	Pop-Up Text System
+if (global.pop_up_text = false)
+{
+	if (position_meeting(x, y, obj_graveyard_exit_trigger))
+	{
+		instance_create_layer(x, y, "Instances_Above", obj_text_container);
+		global.pop_up_text = true;
+	}
+}
+if (instance_exists(obj_text_container))
+{
+	if (!position_meeting(x, y, obj_graveyard_exit_trigger))
+	{
+		global.pop_up_text = false;
+		instance_destroy(obj_text_container);
+	}
+}
 
+//	Next Room Invisible Trigger System
+if (global.pop_up_text = false)
+{
+	if (position_meeting(x, y, obj_forest_leave_trigger))
+	{
+		instance_create_layer(x, y, "Managers", obj_text_container);
+		global.pop_up_text = true;
+	}
+}
 
 //	Pause Controller
 if (!global.paused)
 {
 	script_execute(state);
+}
+
+if (room == rm_forest)
+{
+	y = constantY;
 }

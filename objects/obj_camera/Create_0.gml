@@ -7,5 +7,12 @@ x = follow.x;
 y = follow.y;
 xTo = follow.x;
 yTo = follow.y;
-instance_create_layer(x, y, "Instances_Above", obj_white_screen);
-audio_play_sound(snd_azraels_crater, 51, true);
+if (room == rm_forest)
+{
+	instance_create_layer(x, y, "Managers", obj_white_screen);
+}
+if (room == rm_cemetary)
+{
+	audio_play_sound(snd_azraels_crater, 51, true);
+	instance_create_layer(x, y, "Instances_Above", obj_white_screen);
+}
