@@ -7,11 +7,8 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_1ABF0F11","path":"rooms/rm_cemetary/rm_cemetary.yy",},
-    {"name":"inst_546C9D45","path":"rooms/rm_cemetary/rm_cemetary.yy",},
     {"name":"inst_78F909A4","path":"rooms/rm_cemetary/rm_cemetary.yy",},
     {"name":"inst_18E68522","path":"rooms/rm_cemetary/rm_cemetary.yy",},
-    {"name":"inst_6B0BB685","path":"rooms/rm_cemetary/rm_cemetary.yy",},
-    {"name":"inst_58B99F56","path":"rooms/rm_cemetary/rm_cemetary.yy",},
     {"name":"inst_5D21F65B","path":"rooms/rm_cemetary/rm_cemetary.yy",},
     {"name":"inst_3BBD04E7","path":"rooms/rm_cemetary/rm_cemetary.yy",},
     {"name":"inst_1C2807A0","path":"rooms/rm_cemetary/rm_cemetary.yy",},
@@ -75,9 +72,6 @@
       ],"layers":[],"name":"Grave_Triggers","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances_Below","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_1ABF0F11","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1ABF0F11","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":235.0,"y":571.0,},
-        {"$GMRInstance":"","%Name":"inst_546C9D45","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_546C9D45","objectId":{"name":"obj_fragment_light","path":"objects/obj_fragment_light/obj_fragment_light.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":250.0,"y":96.0,},
-        {"$GMRInstance":"","%Name":"inst_6B0BB685","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6B0BB685","objectId":{"name":"obj_fragment_dark","path":"objects/obj_fragment_dark/obj_fragment_dark.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":250.0,"y":134.0,},
-        {"$GMRInstance":"","%Name":"inst_58B99F56","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_58B99F56","objectId":{"name":"obj_npc1","path":"objects/obj_npc1/obj_npc1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":45.0,},
         {"$GMRInstance":"","%Name":"inst_5D21F65B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5D21F65B","objectId":{"name":"obj_grave_text_drawer","path":"objects/obj_grave_text_drawer/obj_grave_text_drawer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":227.0,"y":544.0,},
       ],"layers":[],"name":"Instances_Below","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Collisions","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Collisions","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":40,"SerialiseWidth":30,"TileCompressedData":[
