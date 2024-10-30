@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_tiles_town",
   "bboxMode":0,
-  "bbox_bottom":132,
-  "bbox_left":22,
-  "bbox_right":197,
+  "bbox_bottom":95,
+  "bbox_left":64,
+  "bbox_right":240,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e8dfc4d9-1d04-4b69-9233-e58e0fd01749","name":"e8dfc4d9-1d04-4b69-9233-e58e0fd01749","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"03706cd0-1d8a-48a9-8e59-d4b425d3025f","name":"03706cd0-1d8a-48a9-8e59-d4b425d3025f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":180,
+  "height":320,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"7ffecda2-b45e-412f-86b0-a468e9602e49","blendMode":0,"displayName":"default","isLocked":false,"name":"7ffecda2-b45e-412f-86b0-a468e9602e49","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"8aa96918-b3d6-495b-bacc-d74c297f112a","blendMode":0,"displayName":"default","isLocked":false,"name":"8aa96918-b3d6-495b-bacc-d74c297f112a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_tiles_town",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e8dfc4d9-1d04-4b69-9233-e58e0fd01749","path":"sprites/spr_tiles_town/spr_tiles_town.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f694278b-123d-4a44-ac47-c7c8a192c969","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"03706cd0-1d8a-48a9-8e59-d4b425d3025f","path":"sprites/spr_tiles_town/spr_tiles_town.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e7246f70-ab07-465e-9156-771089dca20c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

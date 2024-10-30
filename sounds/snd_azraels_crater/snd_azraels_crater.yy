@@ -12,8 +12,8 @@
   "duration":84.9763,
   "name":"snd_azraels_crater",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Music",
+    "path":"folders/Sounds/Music.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

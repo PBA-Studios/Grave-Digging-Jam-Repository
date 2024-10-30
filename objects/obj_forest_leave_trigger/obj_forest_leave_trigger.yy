@@ -1,13 +1,16 @@
 {
   "$GMObject":"",
   "%Name":"obj_forest_leave_trigger",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_forest_leave_trigger",
   "overriddenProperties":[],
   "parent":{
-    "name":"Forest Scene",
-    "path":"folders/Objects/Forest Scene.yy",
+    "name":"Text Pop-Up",
+    "path":"folders/Objects/Text Pop-Up.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,5 +35,5 @@
     "path":"sprites/spr_forest_room_trigger/spr_forest_room_trigger.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

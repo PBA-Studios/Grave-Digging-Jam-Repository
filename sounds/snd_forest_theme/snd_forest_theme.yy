@@ -12,8 +12,8 @@
   "duration":42.187756,
   "name":"snd_forest_theme",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Music",
+    "path":"folders/Sounds/Music.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

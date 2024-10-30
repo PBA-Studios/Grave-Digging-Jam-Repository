@@ -54,20 +54,55 @@ if (distance_to_object(global.closest_grave_instance) > 16)
 }
 
 //	Pop-Up Text System
-if (global.pop_up_text = false)
+//	Cemetary
+if (room == rm_cemetary)
 {
-	if (position_meeting(x, y, obj_graveyard_exit_trigger))
+	if (global.pop_up_text = false)
 	{
-		instance_create_layer(x, y, "Instances_Above", obj_text_container);
-		global.pop_up_text = true;
+		if (position_meeting(x, y, obj_graveyard_exit_trigger))
+		{
+			instance_create_layer(x, y, "Instances_Above", obj_text_container);
+			global.pop_up_text = true;
+		}
+	}
+	if (instance_exists(obj_text_container))
+	{
+		if (!position_meeting(x, y, obj_graveyard_exit_trigger))
+		{
+			global.pop_up_text = false;
+			instance_destroy(obj_text_container);
+		}
 	}
 }
-if (instance_exists(obj_text_container))
+//	Town
+if (room = rm_town)
 {
-	if (!position_meeting(x, y, obj_graveyard_exit_trigger))
+	if (global.pop_up_text = false)
+	{
+		if (position_meeting(x, y, obj_npc1_trigger_text))
+		{
+			instance_create_layer(x, y, "Managers", obj_text_container);
+			global.what_text = obj_text_container.npc1_text;
+			global.pop_up_text = true;
+		}
+		if (position_meeting(x, y, obj_npc2_trigger_text))
+		{
+			instance_create_layer(x, y, "Managers", obj_text_container);
+			global.what_text = obj_text_container.npc2_text;
+			global.pop_up_text = true;
+		}
+	}
+	if (instance_exists(obj_text_container))
+	{
+		if ((!position_meeting(x, y, obj_npc1_trigger_text)) && (!position_meeting(x, y, obj_npc2_trigger_text)))
+		{
+			global.pop_up_text = false;
+			instance_destroy(obj_text_container);
+		}
+	}
+	if ((!position_meeting(x, y, obj_npc1_trigger_text)) && (!position_meeting(x, y, obj_npc2_trigger_text)))
 	{
 		global.pop_up_text = false;
-		instance_destroy(obj_text_container);
 	}
 }
 
@@ -88,6 +123,10 @@ if (!global.paused)
 }
 
 if (room == rm_forest)
+{
+	y = constantY;
+}
+if (room == rm_forest_part2)
 {
 	y = constantY;
 }
